@@ -1,0 +1,48 @@
+spring:
+  freemarker:
+    template-loader-path:
+      - classpath:/templates/
+    suffix: .ftl
+    cache: false
+    prefer-file-system-access: true
+  security:
+    oauth2:
+      client:
+        registration:
+          PocketRetailRealm:
+            provider:
+            client-id:
+            scope:
+              - openid
+              - offline_access
+              - profile
+            client-secret:
+            authorization-grant-type:
+        provider:
+          PocketRetailRealm:
+            issuer-uri:
+  jpa:
+    show-sql: off
+    generate-ddl: off
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        default_schema: tables
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: false
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name: org.postgresql.Driver
+server:
+  forward-headers-strategy: framework
+  port: 80
+springdoc:
+  api-docs:
+    enabled: true
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui/index.html
+    operationsSorter: method

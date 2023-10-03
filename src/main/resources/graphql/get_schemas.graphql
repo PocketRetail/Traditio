@@ -1,0 +1,71 @@
+fragment FullType on __Type {
+    kind
+    name
+    fields(includeDeprecated: true) {
+        name
+        args {
+            ...InputValue
+        }
+        type {
+            ...TypeRef
+        }
+        type {
+            ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+    }
+    inputFields {
+        ...InputValue
+    }
+    enumValues(includeDeprecated: true) {
+        name
+        isDeprecated
+        deprecationReason
+    }
+}
+fragment InputValue on __InputValue {
+    name
+    type {
+        ...TypeRef
+    }
+}
+fragment TypeRef on __Type {
+    kind
+    name
+    ofType {
+        kind
+        name
+        ofType {
+            kind
+            name
+            ofType {
+                kind
+                name
+                ofType {
+                    kind
+                    name
+                    ofType {
+                        kind
+                        name
+                        ofType {
+                            kind
+                            name
+                            ofType {
+                                kind
+                                name
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+query IntrospectionQuery {
+    __schema {
+        types {
+            ...FullType
+        }
+    }
+}
