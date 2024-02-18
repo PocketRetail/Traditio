@@ -1,18 +1,11 @@
-package org.pocketretail.core.deliverylayer.rest.constant;
+package org.pocketretail.core.deliverylayer.rest.constant
 
-import lombok.Getter;
-
-@Getter
-public enum Platform {
-
+enum class Platform(val value: String) {
     MOBILE("mobile"),
     WEB("web");
 
-    Platform(String value) {
-        this.value = value;
+    companion object {
+        fun getPlatformByName(requestPlatform: String): Platform =
+            entries.find { it.value == requestPlatform }?:throw IllegalArgumentException("Platform not found")
     }
-
-    private String value;
-
-
 }

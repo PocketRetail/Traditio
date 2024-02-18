@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+form label {
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+form p {
+  margin: 0;
+}
+
+form input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f0f0f0;
+  color: #333;
+}
+i{
+  cursor: pointer;
+}
+
+button {
+  padding: 15px 30px;
+  background-color: #535377;
+  color: white;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+button:hover {
+  background-color: #43458b;
+}
+
+
+.client-requests-container {
+  margin-top: 40px;
+  background-color: #f5f5f5;
+}
+
+.client-requests {
+  background-color: #f5f5f5;
+  width: 50%;
+  margin-top: 20px;
+  max-height: 700px;
+  overflow-y: auto;
+}
+
+.request {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 99%;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+
+  .request-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* das restliche Styling für request-details */
+  }
+
+  .chart-container {
+    width: 10%;
+    height: 200px;
+    margin-top: 20px;
+    /* das restliche Styling für chart-container */
+  }
+}
+
+
+.client-details {
+  .client-details-headline {
+    display: flex;
+    align-items: center;
+  }
+
+  .status-indicator {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    border-radius: 50%;
+  }
+
+  .status-indicator:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+  }
+
+  .status-indicator.offline:before {
+    background-color: red;
+  }
+
+  .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Positionierung des Tooltips */
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-left: -60px;
+    bottom: 150%;
+
+    /* Optische Eigenschaften */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .status-indicator:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+}

@@ -2,7 +2,6 @@
 <html lang="de">
 <head>
     <title>Deliverylayer | Clients</title>
-    <link href="css/clients.css" rel="stylesheet">
 </head>
 
 

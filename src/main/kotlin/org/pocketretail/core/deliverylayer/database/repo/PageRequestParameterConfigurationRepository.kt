@@ -1,0 +1,7 @@
+package org.pocketretail.core.deliverylayer.database.repo
+
+import org.pocketretail.core.deliverylayer.database.entity.PageRequestParameterConfiguration
+import org.springframework.data.r2dbc.repository.R2dbcRepository
+
+interface PageRequestParameterConfigurationRepository:R2dbcRepository<PageRequestParameterConfiguration, Int>{
+}

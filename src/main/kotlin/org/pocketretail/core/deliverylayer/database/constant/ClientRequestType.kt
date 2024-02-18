@@ -1,9 +1,8 @@
-package org.pocketretail.core.deliverylayer.database.constant;
+package org.pocketretail.core.deliverylayer.database.constant
 
-public enum ClientRequestType {
+enum class ClientRequestType(private val value: String) {
+     GRAPHQL("GRAPHQL"),
+     REST("REST")
 
-    GRAPHQL,
-    REST;
 
-    private String value;
 }

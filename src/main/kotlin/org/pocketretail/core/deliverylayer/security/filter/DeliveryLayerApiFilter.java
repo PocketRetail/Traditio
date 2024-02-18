@@ -1,5 +1,6 @@
 package org.pocketretail.core.deliverylayer.security.filter;
 
+import org.jetbrains.annotations.NotNull;
 import org.pocketretail.lib.JWTType;
 import org.pocketretail.lib.JWTUtils;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -21,8 +22,8 @@ public class DeliveryLayerApiFilter extends OncePerRequestFilter {
 
     JWTUtils jwtUtils = new JWTUtils();
     @Override
-    protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response,
-                                    FilterChain filterChain) throws ServletException, IOException {
+    protected void doFilterInternal(HttpServletRequest request, @NotNull HttpServletResponse response,
+                                    @NotNull FilterChain filterChain) throws ServletException, IOException {
         Cookie accessCookie = Arrays.stream(request.getCookies()).filter(cookie -> cookie.getName().equals("access")).findFirst().orElseThrow();
         String token = accessCookie.getValue();
         if (jwtUtils.isJWTExpired(token, JWTType.ACCESSANY)) {

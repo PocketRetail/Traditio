@@ -1,25 +1,14 @@
-package org.pocketretail.core.deliverylayer.database.entity;
+package org.pocketretail.core.deliverylayer.database.entity
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import lombok.Getter;
-import lombok.Setter;
+import org.springframework.data.annotation.Id
+import org.springframework.data.relational.core.mapping.Column
+import org.springframework.data.relational.core.mapping.Table
 
-@Entity
-@Getter
-@Setter
-public class Page {
-
+@Table("page",schema = "tables")
+data class Page(
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "page_id", updatable = false, nullable = false, columnDefinition = "int")
-    private Integer pageId;
-
-    @Column(name = "page_name", nullable = false, columnDefinition = "varchar(255)")
-    private String pageName;
-
-
-}
+    @Column("page_id")
+    var pageId: Int,
+    @Column("page_name")
+    var pageName: String,
+)

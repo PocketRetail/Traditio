@@ -7,16 +7,14 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
-@Getter
-@Setter
-@AllArgsConstructor
-@NoArgsConstructor
 public class GraphQLSchemaResponse {
+
+    public GraphQLSchemaResponse(SchemaResponseData data) {
+        this.data = data;
+    }
+
+    public GraphQLSchemaResponse() {
+    }
 
     private SchemaResponseData data;
 
@@ -35,26 +33,18 @@ public class GraphQLSchemaResponse {
 
 
 
-    @Getter
-    @Setter
-    @AllArgsConstructor
-    @NoArgsConstructor
+
     public static class SchemaResponseData {
 
-        private SchemaResponseDataSchema __schema;
+        @JsonProperty("__schema")
+        private SchemaResponseDataSchema schema;
 
-        @Getter
-        @Setter
-        @AllArgsConstructor
-        @NoArgsConstructor
+
         public static class SchemaResponseDataSchema {
 
             private List<DataSchemaType> types;
 
-            @Getter
-            @Setter
-            @AllArgsConstructor
-            @NoArgsConstructor
+
             public static class DataSchemaType {
                 private String kind;
                 private String name;
@@ -64,23 +54,41 @@ public class GraphQLSchemaResponse {
                 @JsonProperty("enumValues")
                 private List<EnumValue> enumValues;
 
-                @Getter
-                @Setter
-                @AllArgsConstructor
-                @NoArgsConstructor
+
                 public static class EnumValue {
                     private String name;
                     @JsonProperty("isDeprecated")
                     private Boolean isDeprecated;
                     @JsonProperty("deprecationReason")
                     private String deprecationReason;
+
+                    public String getName() {
+                        return name;
+                    }
+
+                    public void setName(String name) {
+                        this.name = name;
+                    }
+
+                    public Boolean getDeprecated() {
+                        return isDeprecated;
+                    }
+
+                    public void setDeprecated(Boolean deprecated) {
+                        isDeprecated = deprecated;
+                    }
+
+                    public String getDeprecationReason() {
+                        return deprecationReason;
+                    }
+
+                    public void setDeprecationReason(String deprecationReason) {
+                        this.deprecationReason = deprecationReason;
+                    }
                 }
 
 
-                @Getter
-                @Setter
-                @AllArgsConstructor
-                @NoArgsConstructor
+
                 public static class Field {
                     private String name;
                     private List<Arg> args;
@@ -91,39 +99,209 @@ public class GraphQLSchemaResponse {
                     private String deprecationReason;
 
 
-                    @Getter
-                    @Setter
-                    @AllArgsConstructor
-                    @NoArgsConstructor
+
                     public static class Arg {
                         private String name;
                         private Type type;
+
+                        public String getName() {
+                            return name;
+                        }
+
+                        public void setName(String name) {
+                            this.name = name;
+                        }
+
+                        public Type getType() {
+                            return type;
+                        }
+
+                        public void setType(
+                                Type type) {
+                            this.type = type;
+                        }
                     }
 
-                    @Getter
-                    @Setter
-                    @AllArgsConstructor
-                    @NoArgsConstructor
+
                     public static class Type {
                         private String kind;
                         private String name;
                         @JsonProperty("ofType")
                         private OfType ofType;
 
-                        @Getter
-                        @Setter
-                        @AllArgsConstructor
-                        @NoArgsConstructor
+
+
                         public static class OfType {
                             private String kind;
                             private String name;
                             @JsonProperty("ofType")
                             private OfType ofType;
+
+                            public String getKind() {
+                                return kind;
+                            }
+
+                            public void setKind(String kind) {
+                                this.kind = kind;
+                            }
+
+                            public String getName() {
+                                return name;
+                            }
+
+                            public void setName(String name) {
+                                this.name = name;
+                            }
+
+                            public OfType getOfType() {
+                                return ofType;
+                            }
+
+                            public void setOfType(
+                                    OfType ofType) {
+                                this.ofType = ofType;
+                            }
+                        }
+
+                        public String getKind() {
+                            return kind;
+                        }
+
+                        public void setKind(String kind) {
+                            this.kind = kind;
+                        }
+
+                        public String getName() {
+                            return name;
+                        }
+
+                        public void setName(String name) {
+                            this.name = name;
+                        }
+
+                        public OfType getOfType() {
+                            return ofType;
+                        }
+
+                        public void setOfType(
+                                OfType ofType) {
+                            this.ofType = ofType;
                         }
                     }
+
+                    public String getName() {
+                        return name;
+                    }
+
+                    public void setName(String name) {
+                        this.name = name;
+                    }
+
+                    public List<Arg> getArgs() {
+                        return args;
+                    }
+
+                    public void setArgs(
+                            List<Arg> args) {
+                        this.args = args;
+                    }
+
+                    public Type getType() {
+                        return type;
+                    }
+
+                    public void setType(
+                            Type type) {
+                        this.type = type;
+                    }
+
+                    public Boolean getDeprecated() {
+                        return isDeprecated;
+                    }
+
+                    public void setDeprecated(Boolean deprecated) {
+                        isDeprecated = deprecated;
+                    }
+
+                    public String getDeprecationReason() {
+                        return deprecationReason;
+                    }
+
+                    public void setDeprecationReason(String deprecationReason) {
+                        this.deprecationReason = deprecationReason;
+                    }
+                }
+
+                public String getKind() {
+                    return kind;
+                }
+
+                public void setKind(String kind) {
+                    this.kind = kind;
+                }
+
+                public String getName() {
+                    return name;
+                }
+
+                public void setName(String name) {
+                    this.name = name;
+                }
+
+                public List<Field> getFields() {
+                    return fields;
+                }
+
+                public void setFields(
+                        List<Field> fields) {
+                    this.fields = fields;
+                }
+
+                public List<Field> getInputFields() {
+                    return inputFields;
+                }
+
+                public void setInputFields(
+                        List<Field> inputFields) {
+                    this.inputFields = inputFields;
+                }
+
+                public List<EnumValue> getEnumValues() {
+                    return enumValues;
+                }
+
+                public void setEnumValues(
+                        List<EnumValue> enumValues) {
+                    this.enumValues = enumValues;
                 }
             }
 
+            public List<DataSchemaType> getTypes() {
+                return types;
+            }
+
+            public void setTypes(
+                    List<DataSchemaType> types) {
+                this.types = types;
+            }
         }
+
+        public SchemaResponseDataSchema getSchema() {
+            return schema;
+        }
+
+        public void setSchema(
+                SchemaResponseDataSchema schema) {
+            this.schema = schema;
+        }
+    }
+
+    public SchemaResponseData getData() {
+        return data;
+    }
+
+    public void setData(
+            SchemaResponseData data) {
+        this.data = data;
     }
 }

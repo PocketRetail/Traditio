@@ -1,3818 +1,759 @@
 [
   {
     "clientRequestParameterId": 1,
-    "clientRequestId": {
-      "clientRequestId": 1,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "getTrackedTimesOfEmployee",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "LIST",
-    "clientRequestParameterOfTypeDataType": "OBJECT",
-    "clientRequestParameterOfTypeDataTypeName": "Date",
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 2,
-    "clientRequestId": {
-      "clientRequestId": 1,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "date",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 1,
-      "clientRequestId": {
-        "clientRequestId": 1,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getTrackedTimesOfEmployee"
-      },
-      "clientRequestParameterName": "getTrackedTimesOfEmployee",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "Date",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 3,
-    "clientRequestId": {
-      "clientRequestId": 1,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "day",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 1,
-      "clientRequestId": {
-        "clientRequestId": 1,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getTrackedTimesOfEmployee"
-      },
-      "clientRequestParameterName": "getTrackedTimesOfEmployee",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "Date",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 4,
-    "clientRequestId": {
-      "clientRequestId": 1,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "employeeTrackedTimes",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "LIST",
-    "clientRequestParameterOfTypeDataType": "OBJECT",
-    "clientRequestParameterOfTypeDataTypeName": "EmployeeTrackedTime",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 1,
-      "clientRequestId": {
-        "clientRequestId": 1,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getTrackedTimesOfEmployee"
-      },
-      "clientRequestParameterName": "getTrackedTimesOfEmployee",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "Date",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 5,
-    "clientRequestId": {
-      "clientRequestId": 1,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "employeeTrackedTimeId",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 4,
-      "clientRequestId": {
-        "clientRequestId": 1,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getTrackedTimesOfEmployee"
-      },
-      "clientRequestParameterName": "employeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "EmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 1,
-        "clientRequestId": {
-          "clientRequestId": 1,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getTrackedTimesOfEmployee"
-        },
-        "clientRequestParameterName": "getTrackedTimesOfEmployee",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "LIST",
-        "clientRequestParameterOfTypeDataType": "OBJECT",
-        "clientRequestParameterOfTypeDataTypeName": "Date",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 6,
-    "clientRequestId": {
-      "clientRequestId": 1,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "employeeId",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 4,
-      "clientRequestId": {
-        "clientRequestId": 1,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getTrackedTimesOfEmployee"
-      },
-      "clientRequestParameterName": "employeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "EmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 1,
-        "clientRequestId": {
-          "clientRequestId": 1,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getTrackedTimesOfEmployee"
-        },
-        "clientRequestParameterName": "getTrackedTimesOfEmployee",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "LIST",
-        "clientRequestParameterOfTypeDataType": "OBJECT",
-        "clientRequestParameterOfTypeDataTypeName": "Date",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 7,
-    "clientRequestId": {
-      "clientRequestId": 1,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "firstname",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 4,
-      "clientRequestId": {
-        "clientRequestId": 1,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getTrackedTimesOfEmployee"
-      },
-      "clientRequestParameterName": "employeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "EmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 1,
-        "clientRequestId": {
-          "clientRequestId": 1,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getTrackedTimesOfEmployee"
-        },
-        "clientRequestParameterName": "getTrackedTimesOfEmployee",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "LIST",
-        "clientRequestParameterOfTypeDataType": "OBJECT",
-        "clientRequestParameterOfTypeDataTypeName": "Date",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 8,
-    "clientRequestId": {
-      "clientRequestId": 1,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "surname",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 4,
-      "clientRequestId": {
-        "clientRequestId": 1,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getTrackedTimesOfEmployee"
-      },
-      "clientRequestParameterName": "employeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "EmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 1,
-        "clientRequestId": {
-          "clientRequestId": 1,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getTrackedTimesOfEmployee"
-        },
-        "clientRequestParameterName": "getTrackedTimesOfEmployee",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "LIST",
-        "clientRequestParameterOfTypeDataType": "OBJECT",
-        "clientRequestParameterOfTypeDataTypeName": "Date",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 9,
-    "clientRequestId": {
-      "clientRequestId": 1,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "trackedDate",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 4,
-      "clientRequestId": {
-        "clientRequestId": 1,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getTrackedTimesOfEmployee"
-      },
-      "clientRequestParameterName": "employeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "EmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 1,
-        "clientRequestId": {
-          "clientRequestId": 1,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getTrackedTimesOfEmployee"
-        },
-        "clientRequestParameterName": "getTrackedTimesOfEmployee",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "LIST",
-        "clientRequestParameterOfTypeDataType": "OBJECT",
-        "clientRequestParameterOfTypeDataTypeName": "Date",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 10,
-    "clientRequestId": {
-      "clientRequestId": 1,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "trackedTime",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 4,
-      "clientRequestId": {
-        "clientRequestId": 1,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getTrackedTimesOfEmployee"
-      },
-      "clientRequestParameterName": "employeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "EmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 1,
-        "clientRequestId": {
-          "clientRequestId": 1,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getTrackedTimesOfEmployee"
-        },
-        "clientRequestParameterName": "getTrackedTimesOfEmployee",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "LIST",
-        "clientRequestParameterOfTypeDataType": "OBJECT",
-        "clientRequestParameterOfTypeDataTypeName": "Date",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 11,
-    "clientRequestId": {
-      "clientRequestId": 1,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "status",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 4,
-      "clientRequestId": {
-        "clientRequestId": 1,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getTrackedTimesOfEmployee"
-      },
-      "clientRequestParameterName": "employeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "EmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 1,
-        "clientRequestId": {
-          "clientRequestId": 1,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getTrackedTimesOfEmployee"
-        },
-        "clientRequestParameterName": "getTrackedTimesOfEmployee",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "LIST",
-        "clientRequestParameterOfTypeDataType": "OBJECT",
-        "clientRequestParameterOfTypeDataTypeName": "Date",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 12,
-    "clientRequestId": {
-      "clientRequestId": 1,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getTrackedTimesOfEmployee"
-    },
+    "clientRequestId": 3,
     "clientRequestParameterName": "employeeId",
     "clientRequestParameterType": "INPUT",
     "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "childClientRequestParameterIds": []
+    "clientRequestParameterDataTypeName": "String"
   },
   {
-    "clientRequestParameterId": 13,
-    "clientRequestId": {
-      "clientRequestId": 2,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimes"
-    },
+    "clientRequestParameterId": 2,
+    "clientRequestId": 6,
+    "clientRequestParameterName": "test",
+    "clientRequestParameterType": "INPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String"
+  },
+  {
+    "clientRequestParameterId": 3,
+    "clientRequestId": 2,
+    "clientRequestParameterName": "employeeId",
+    "clientRequestParameterType": "INPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String"
+  },
+  {
+    "clientRequestParameterId": 4,
+    "clientRequestId": 5,
+    "clientRequestParameterName": "test",
+    "clientRequestParameterType": "INPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "Int"
+  },
+  {
+    "clientRequestParameterId": 5,
+    "clientRequestId": 7,
+    "clientRequestParameterName": "employeeId",
+    "clientRequestParameterType": "INPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String"
+  },
+  {
+    "clientRequestParameterId": 6,
+    "clientRequestId": 6,
+    "clientRequestParameterName": "test3",
+    "clientRequestParameterType": "INPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String"
+  },
+  {
+    "clientRequestParameterId": 7,
+    "clientRequestId": 1,
     "clientRequestParameterName": "getFormattedTrackedTimes",
     "clientRequestParameterType": "OUTPUT",
     "clientRequestParameterDataType": "LIST",
     "clientRequestParameterOfTypeDataType": "OBJECT",
-    "clientRequestParameterOfTypeDataTypeName": "Employee",
-    "childClientRequestParameterIds": []
+    "clientRequestParameterOfTypeDataTypeName": "Employee"
+  },
+  {
+    "clientRequestParameterId": 8,
+    "clientRequestId": 6,
+    "clientRequestParameterName": "test2",
+    "clientRequestParameterType": "INPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String"
+  },
+  {
+    "clientRequestParameterId": 9,
+    "clientRequestId": 5,
+    "clientRequestParameterName": "test2",
+    "clientRequestParameterType": "INPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "Int"
+  },
+  {
+    "clientRequestParameterId": 10,
+    "clientRequestId": 2,
+    "clientRequestParameterName": "date",
+    "clientRequestParameterType": "INPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String"
+  },
+  {
+    "clientRequestParameterId": 11,
+    "clientRequestId": 4,
+    "clientRequestParameterName": "getOwnFormattedTrackedTimes",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "OBJECT",
+    "clientRequestParameterDataTypeName": "Employee"
+  },
+  {
+    "clientRequestParameterId": 12,
+    "clientRequestId": 5,
+    "clientRequestParameterName": "test3",
+    "clientRequestParameterType": "INPUT",
+    "clientRequestParameterDataType": "LIST",
+    "clientRequestParameterOfTypeDataType": "INPUT_OBJECT",
+    "clientRequestParameterOfTypeDataTypeName": "TestInput"
+  },
+  {
+    "clientRequestParameterId": 13,
+    "clientRequestId": 7,
+    "clientRequestParameterName": "getTrackedTimesOfEmployee",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "LIST",
+    "clientRequestParameterOfTypeDataType": "OBJECT",
+    "clientRequestParameterOfTypeDataTypeName": "Date"
   },
   {
     "clientRequestParameterId": 14,
-    "clientRequestId": {
-      "clientRequestId": 2,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimes"
-    },
+    "clientRequestId": 3,
+    "clientRequestParameterName": "getFormattedTrackedTimesOfEmployee",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "OBJECT",
+    "clientRequestParameterDataTypeName": "Employee"
+  },
+  {
+    "clientRequestParameterId": 15,
+    "clientRequestId": 6,
+    "clientRequestParameterName": "testOfMyDeliveryLayer1",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "OBJECT",
+    "clientRequestParameterDataTypeName": "Response"
+  },
+  {
+    "clientRequestParameterId": 16,
+    "clientRequestId": 1,
     "clientRequestParameterName": "employeeId",
     "clientRequestParameterType": "OUTPUT",
     "clientRequestParameterDataType": "SCALAR",
     "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 13,
-      "clientRequestId": {
-        "clientRequestId": 2,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getFormattedTrackedTimes"
-      },
-      "clientRequestParameterName": "getFormattedTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "Employee",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
+    "parentClientRequestParameterId": 7
   },
   {
-    "clientRequestParameterId": 15,
-    "clientRequestId": {
-      "clientRequestId": 2,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimes"
-    },
+    "clientRequestParameterId": 17,
+    "clientRequestId": 5,
+    "clientRequestParameterName": "test",
+    "clientRequestParameterType": "INPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 12
+  },
+  {
+    "clientRequestParameterId": 18,
+    "clientRequestId": 1,
     "clientRequestParameterName": "firstname",
     "clientRequestParameterType": "OUTPUT",
     "clientRequestParameterDataType": "SCALAR",
     "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 13,
-      "clientRequestId": {
-        "clientRequestId": 2,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getFormattedTrackedTimes"
-      },
-      "clientRequestParameterName": "getFormattedTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "Employee",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
+    "parentClientRequestParameterId": 7
   },
   {
-    "clientRequestParameterId": 16,
-    "clientRequestId": {
-      "clientRequestId": 2,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimes"
-    },
+    "clientRequestParameterId": 19,
+    "clientRequestId": 1,
     "clientRequestParameterName": "surname",
     "clientRequestParameterType": "OUTPUT",
     "clientRequestParameterDataType": "SCALAR",
     "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 13,
-      "clientRequestId": {
-        "clientRequestId": 2,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getFormattedTrackedTimes"
-      },
-      "clientRequestParameterName": "getFormattedTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "Employee",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
+    "parentClientRequestParameterId": 7
   },
   {
-    "clientRequestParameterId": 17,
-    "clientRequestId": {
-      "clientRequestId": 2,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimes"
-    },
+    "clientRequestParameterId": 20,
+    "clientRequestId": 4,
+    "clientRequestParameterName": "employeeId",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 11
+  },
+  {
+    "clientRequestParameterId": 21,
+    "clientRequestId": 1,
     "clientRequestParameterName": "formattedEmployeeTrackedTimes",
     "clientRequestParameterType": "OUTPUT",
     "clientRequestParameterDataType": "LIST",
     "clientRequestParameterOfTypeDataType": "OBJECT",
     "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 13,
-      "clientRequestId": {
-        "clientRequestId": 2,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getFormattedTrackedTimes"
-      },
-      "clientRequestParameterName": "getFormattedTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "Employee",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 18,
-    "clientRequestId": {
-      "clientRequestId": 2,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimes"
-    },
-    "clientRequestParameterName": "employeeTrackedTimeId",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 17,
-      "clientRequestId": {
-        "clientRequestId": 2,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getFormattedTrackedTimes"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 13,
-        "clientRequestId": {
-          "clientRequestId": 2,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getFormattedTrackedTimes"
-        },
-        "clientRequestParameterName": "getFormattedTrackedTimes",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "LIST",
-        "clientRequestParameterOfTypeDataType": "OBJECT",
-        "clientRequestParameterOfTypeDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 19,
-    "clientRequestId": {
-      "clientRequestId": 2,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimes"
-    },
-    "clientRequestParameterName": "date",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 17,
-      "clientRequestId": {
-        "clientRequestId": 2,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getFormattedTrackedTimes"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 13,
-        "clientRequestId": {
-          "clientRequestId": 2,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getFormattedTrackedTimes"
-        },
-        "clientRequestParameterName": "getFormattedTrackedTimes",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "LIST",
-        "clientRequestParameterOfTypeDataType": "OBJECT",
-        "clientRequestParameterOfTypeDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 20,
-    "clientRequestId": {
-      "clientRequestId": 2,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimes"
-    },
-    "clientRequestParameterName": "day",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 17,
-      "clientRequestId": {
-        "clientRequestId": 2,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getFormattedTrackedTimes"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 13,
-        "clientRequestId": {
-          "clientRequestId": 2,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getFormattedTrackedTimes"
-        },
-        "clientRequestParameterName": "getFormattedTrackedTimes",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "LIST",
-        "clientRequestParameterOfTypeDataType": "OBJECT",
-        "clientRequestParameterOfTypeDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 21,
-    "clientRequestId": {
-      "clientRequestId": 2,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimes"
-    },
-    "clientRequestParameterName": "begin",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 17,
-      "clientRequestId": {
-        "clientRequestId": 2,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getFormattedTrackedTimes"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 13,
-        "clientRequestId": {
-          "clientRequestId": 2,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getFormattedTrackedTimes"
-        },
-        "clientRequestParameterName": "getFormattedTrackedTimes",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "LIST",
-        "clientRequestParameterOfTypeDataType": "OBJECT",
-        "clientRequestParameterOfTypeDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
+    "parentClientRequestParameterId": 7
   },
   {
     "clientRequestParameterId": 22,
-    "clientRequestId": {
-      "clientRequestId": 2,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimes"
-    },
-    "clientRequestParameterName": "end",
+    "clientRequestId": 4,
+    "clientRequestParameterName": "firstname",
     "clientRequestParameterType": "OUTPUT",
     "clientRequestParameterDataType": "SCALAR",
     "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 17,
-      "clientRequestId": {
-        "clientRequestId": 2,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getFormattedTrackedTimes"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 13,
-        "clientRequestId": {
-          "clientRequestId": 2,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getFormattedTrackedTimes"
-        },
-        "clientRequestParameterName": "getFormattedTrackedTimes",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "LIST",
-        "clientRequestParameterOfTypeDataType": "OBJECT",
-        "clientRequestParameterOfTypeDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
+    "parentClientRequestParameterId": 11
   },
   {
     "clientRequestParameterId": 23,
-    "clientRequestId": {
-      "clientRequestId": 2,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimes"
-    },
-    "clientRequestParameterName": "workingTime",
+    "clientRequestId": 4,
+    "clientRequestParameterName": "surname",
     "clientRequestParameterType": "OUTPUT",
     "clientRequestParameterDataType": "SCALAR",
     "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 17,
-      "clientRequestId": {
-        "clientRequestId": 2,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getFormattedTrackedTimes"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 13,
-        "clientRequestId": {
-          "clientRequestId": 2,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getFormattedTrackedTimes"
-        },
-        "clientRequestParameterName": "getFormattedTrackedTimes",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "LIST",
-        "clientRequestParameterOfTypeDataType": "OBJECT",
-        "clientRequestParameterOfTypeDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
+    "parentClientRequestParameterId": 11
   },
   {
     "clientRequestParameterId": 24,
-    "clientRequestId": {
-      "clientRequestId": 2,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimes"
-    },
-    "clientRequestParameterName": "breakTime",
+    "clientRequestId": 4,
+    "clientRequestParameterName": "formattedEmployeeTrackedTimes",
     "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 17,
-      "clientRequestId": {
-        "clientRequestId": 2,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getFormattedTrackedTimes"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 13,
-        "clientRequestId": {
-          "clientRequestId": 2,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getFormattedTrackedTimes"
-        },
-        "clientRequestParameterName": "getFormattedTrackedTimes",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "LIST",
-        "clientRequestParameterOfTypeDataType": "OBJECT",
-        "clientRequestParameterOfTypeDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
+    "clientRequestParameterDataType": "LIST",
+    "clientRequestParameterOfTypeDataType": "OBJECT",
+    "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
+    "parentClientRequestParameterId": 11
   },
   {
     "clientRequestParameterId": 25,
-    "clientRequestId": {
-      "clientRequestId": 3,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getEmployeeTrackedTimesByDate"
-    },
+    "clientRequestId": 2,
     "clientRequestParameterName": "getEmployeeTrackedTimesByDate",
     "clientRequestParameterType": "OUTPUT",
     "clientRequestParameterDataType": "OBJECT",
-    "clientRequestParameterDataTypeName": "Date",
-    "childClientRequestParameterIds": []
+    "clientRequestParameterDataTypeName": "Date"
   },
   {
     "clientRequestParameterId": 26,
-    "clientRequestId": {
-      "clientRequestId": 3,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getEmployeeTrackedTimesByDate"
-    },
-    "clientRequestParameterName": "date",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 25,
-      "clientRequestId": {
-        "clientRequestId": 3,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getEmployeeTrackedTimesByDate"
-      },
-      "clientRequestParameterName": "getEmployeeTrackedTimesByDate",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "OBJECT",
-      "clientRequestParameterDataTypeName": "Date",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 27,
-    "clientRequestId": {
-      "clientRequestId": 3,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getEmployeeTrackedTimesByDate"
-    },
+    "clientRequestId": 7,
     "clientRequestParameterName": "day",
     "clientRequestParameterType": "OUTPUT",
     "clientRequestParameterDataType": "SCALAR",
     "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 25,
-      "clientRequestId": {
-        "clientRequestId": 3,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getEmployeeTrackedTimesByDate"
-      },
-      "clientRequestParameterName": "getEmployeeTrackedTimesByDate",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "OBJECT",
-      "clientRequestParameterDataTypeName": "Date",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
+    "parentClientRequestParameterId": 13
+  },
+  {
+    "clientRequestParameterId": 27,
+    "clientRequestId": 7,
+    "clientRequestParameterName": "date",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 13
   },
   {
     "clientRequestParameterId": 28,
-    "clientRequestId": {
-      "clientRequestId": 3,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getEmployeeTrackedTimesByDate"
-    },
+    "clientRequestId": 7,
     "clientRequestParameterName": "employeeTrackedTimes",
     "clientRequestParameterType": "OUTPUT",
     "clientRequestParameterDataType": "LIST",
     "clientRequestParameterOfTypeDataType": "OBJECT",
     "clientRequestParameterOfTypeDataTypeName": "EmployeeTrackedTime",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 25,
-      "clientRequestId": {
-        "clientRequestId": 3,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getEmployeeTrackedTimesByDate"
-      },
-      "clientRequestParameterName": "getEmployeeTrackedTimesByDate",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "OBJECT",
-      "clientRequestParameterDataTypeName": "Date",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
+    "parentClientRequestParameterId": 13
   },
   {
     "clientRequestParameterId": 29,
-    "clientRequestId": {
-      "clientRequestId": 3,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getEmployeeTrackedTimesByDate"
-    },
-    "clientRequestParameterName": "employeeTrackedTimeId",
+    "clientRequestId": 3,
+    "clientRequestParameterName": "employeeId",
     "clientRequestParameterType": "OUTPUT",
     "clientRequestParameterDataType": "SCALAR",
     "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 28,
-      "clientRequestId": {
-        "clientRequestId": 3,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getEmployeeTrackedTimesByDate"
-      },
-      "clientRequestParameterName": "employeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "EmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 25,
-        "clientRequestId": {
-          "clientRequestId": 3,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getEmployeeTrackedTimesByDate"
-        },
-        "clientRequestParameterName": "getEmployeeTrackedTimesByDate",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Date",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
+    "parentClientRequestParameterId": 14
   },
   {
     "clientRequestParameterId": 30,
-    "clientRequestId": {
-      "clientRequestId": 3,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getEmployeeTrackedTimesByDate"
-    },
-    "clientRequestParameterName": "employeeId",
+    "clientRequestId": 3,
+    "clientRequestParameterName": "firstname",
     "clientRequestParameterType": "OUTPUT",
     "clientRequestParameterDataType": "SCALAR",
     "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 28,
-      "clientRequestId": {
-        "clientRequestId": 3,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getEmployeeTrackedTimesByDate"
-      },
-      "clientRequestParameterName": "employeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "EmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 25,
-        "clientRequestId": {
-          "clientRequestId": 3,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getEmployeeTrackedTimesByDate"
-        },
-        "clientRequestParameterName": "getEmployeeTrackedTimesByDate",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Date",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
+    "parentClientRequestParameterId": 14
   },
   {
     "clientRequestParameterId": 31,
-    "clientRequestId": {
-      "clientRequestId": 3,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getEmployeeTrackedTimesByDate"
-    },
-    "clientRequestParameterName": "firstname",
+    "clientRequestId": 3,
+    "clientRequestParameterName": "surname",
     "clientRequestParameterType": "OUTPUT",
     "clientRequestParameterDataType": "SCALAR",
     "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 28,
-      "clientRequestId": {
-        "clientRequestId": 3,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getEmployeeTrackedTimesByDate"
-      },
-      "clientRequestParameterName": "employeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "EmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 25,
-        "clientRequestId": {
-          "clientRequestId": 3,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getEmployeeTrackedTimesByDate"
-        },
-        "clientRequestParameterName": "getEmployeeTrackedTimesByDate",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Date",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
+    "parentClientRequestParameterId": 14
   },
   {
     "clientRequestParameterId": 32,
-    "clientRequestId": {
-      "clientRequestId": 3,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getEmployeeTrackedTimesByDate"
-    },
-    "clientRequestParameterName": "surname",
+    "clientRequestId": 3,
+    "clientRequestParameterName": "formattedEmployeeTrackedTimes",
     "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 28,
-      "clientRequestId": {
-        "clientRequestId": 3,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getEmployeeTrackedTimesByDate"
-      },
-      "clientRequestParameterName": "employeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "EmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 25,
-        "clientRequestId": {
-          "clientRequestId": 3,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getEmployeeTrackedTimesByDate"
-        },
-        "clientRequestParameterName": "getEmployeeTrackedTimesByDate",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Date",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
+    "clientRequestParameterDataType": "LIST",
+    "clientRequestParameterOfTypeDataType": "OBJECT",
+    "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
+    "parentClientRequestParameterId": 14
   },
   {
     "clientRequestParameterId": 33,
-    "clientRequestId": {
-      "clientRequestId": 3,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getEmployeeTrackedTimesByDate"
-    },
-    "clientRequestParameterName": "trackedDate",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 28,
-      "clientRequestId": {
-        "clientRequestId": 3,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getEmployeeTrackedTimesByDate"
-      },
-      "clientRequestParameterName": "employeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "EmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 25,
-        "clientRequestId": {
-          "clientRequestId": 3,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getEmployeeTrackedTimesByDate"
-        },
-        "clientRequestParameterName": "getEmployeeTrackedTimesByDate",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Date",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 34,
-    "clientRequestId": {
-      "clientRequestId": 3,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getEmployeeTrackedTimesByDate"
-    },
-    "clientRequestParameterName": "trackedTime",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 28,
-      "clientRequestId": {
-        "clientRequestId": 3,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getEmployeeTrackedTimesByDate"
-      },
-      "clientRequestParameterName": "employeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "EmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 25,
-        "clientRequestId": {
-          "clientRequestId": 3,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getEmployeeTrackedTimesByDate"
-        },
-        "clientRequestParameterName": "getEmployeeTrackedTimesByDate",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Date",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 35,
-    "clientRequestId": {
-      "clientRequestId": 3,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getEmployeeTrackedTimesByDate"
-    },
-    "clientRequestParameterName": "status",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 28,
-      "clientRequestId": {
-        "clientRequestId": 3,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getEmployeeTrackedTimesByDate"
-      },
-      "clientRequestParameterName": "employeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "EmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 25,
-        "clientRequestId": {
-          "clientRequestId": 3,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getEmployeeTrackedTimesByDate"
-        },
-        "clientRequestParameterName": "getEmployeeTrackedTimesByDate",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Date",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 36,
-    "clientRequestId": {
-      "clientRequestId": 3,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getEmployeeTrackedTimesByDate"
-    },
-    "clientRequestParameterName": "employeeId",
-    "clientRequestParameterType": "INPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 37,
-    "clientRequestId": {
-      "clientRequestId": 3,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getEmployeeTrackedTimesByDate"
-    },
-    "clientRequestParameterName": "date",
-    "clientRequestParameterType": "INPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 38,
-    "clientRequestId": {
-      "clientRequestId": 4,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "getFormattedTrackedTimesOfEmployee",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "OBJECT",
-    "clientRequestParameterDataTypeName": "Employee",
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 39,
-    "clientRequestId": {
-      "clientRequestId": 4,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "employeeId",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 38,
-      "clientRequestId": {
-        "clientRequestId": 4,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-      },
-      "clientRequestParameterName": "getFormattedTrackedTimesOfEmployee",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "OBJECT",
-      "clientRequestParameterDataTypeName": "Employee",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 40,
-    "clientRequestId": {
-      "clientRequestId": 4,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "firstname",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 38,
-      "clientRequestId": {
-        "clientRequestId": 4,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-      },
-      "clientRequestParameterName": "getFormattedTrackedTimesOfEmployee",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "OBJECT",
-      "clientRequestParameterDataTypeName": "Employee",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 41,
-    "clientRequestId": {
-      "clientRequestId": 4,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "surname",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 38,
-      "clientRequestId": {
-        "clientRequestId": 4,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-      },
-      "clientRequestParameterName": "getFormattedTrackedTimesOfEmployee",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "OBJECT",
-      "clientRequestParameterDataTypeName": "Employee",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 42,
-    "clientRequestId": {
-      "clientRequestId": 4,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "LIST",
-    "clientRequestParameterOfTypeDataType": "OBJECT",
-    "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 38,
-      "clientRequestId": {
-        "clientRequestId": 4,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-      },
-      "clientRequestParameterName": "getFormattedTrackedTimesOfEmployee",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "OBJECT",
-      "clientRequestParameterDataTypeName": "Employee",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 43,
-    "clientRequestId": {
-      "clientRequestId": 4,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "employeeTrackedTimeId",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 42,
-      "clientRequestId": {
-        "clientRequestId": 4,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 38,
-        "clientRequestId": {
-          "clientRequestId": 4,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-        },
-        "clientRequestParameterName": "getFormattedTrackedTimesOfEmployee",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 44,
-    "clientRequestId": {
-      "clientRequestId": 4,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "date",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 42,
-      "clientRequestId": {
-        "clientRequestId": 4,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 38,
-        "clientRequestId": {
-          "clientRequestId": 4,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-        },
-        "clientRequestParameterName": "getFormattedTrackedTimesOfEmployee",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 45,
-    "clientRequestId": {
-      "clientRequestId": 4,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "day",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 42,
-      "clientRequestId": {
-        "clientRequestId": 4,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 38,
-        "clientRequestId": {
-          "clientRequestId": 4,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-        },
-        "clientRequestParameterName": "getFormattedTrackedTimesOfEmployee",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 46,
-    "clientRequestId": {
-      "clientRequestId": 4,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "begin",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 42,
-      "clientRequestId": {
-        "clientRequestId": 4,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 38,
-        "clientRequestId": {
-          "clientRequestId": 4,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-        },
-        "clientRequestParameterName": "getFormattedTrackedTimesOfEmployee",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 47,
-    "clientRequestId": {
-      "clientRequestId": 4,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "end",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 42,
-      "clientRequestId": {
-        "clientRequestId": 4,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 38,
-        "clientRequestId": {
-          "clientRequestId": 4,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-        },
-        "clientRequestParameterName": "getFormattedTrackedTimesOfEmployee",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 48,
-    "clientRequestId": {
-      "clientRequestId": 4,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "workingTime",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 42,
-      "clientRequestId": {
-        "clientRequestId": 4,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 38,
-        "clientRequestId": {
-          "clientRequestId": 4,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-        },
-        "clientRequestParameterName": "getFormattedTrackedTimesOfEmployee",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 49,
-    "clientRequestId": {
-      "clientRequestId": 4,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "breakTime",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 42,
-      "clientRequestId": {
-        "clientRequestId": 4,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 38,
-        "clientRequestId": {
-          "clientRequestId": 4,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-        },
-        "clientRequestParameterName": "getFormattedTrackedTimesOfEmployee",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 50,
-    "clientRequestId": {
-      "clientRequestId": 4,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getFormattedTrackedTimesOfEmployee"
-    },
-    "clientRequestParameterName": "employeeId",
-    "clientRequestParameterType": "INPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 51,
-    "clientRequestId": {
-      "clientRequestId": 5,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getOwnFormattedTrackedTimes"
-    },
-    "clientRequestParameterName": "getOwnFormattedTrackedTimes",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "OBJECT",
-    "clientRequestParameterDataTypeName": "Employee",
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 52,
-    "clientRequestId": {
-      "clientRequestId": 5,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getOwnFormattedTrackedTimes"
-    },
-    "clientRequestParameterName": "employeeId",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 51,
-      "clientRequestId": {
-        "clientRequestId": 5,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getOwnFormattedTrackedTimes"
-      },
-      "clientRequestParameterName": "getOwnFormattedTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "OBJECT",
-      "clientRequestParameterDataTypeName": "Employee",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 53,
-    "clientRequestId": {
-      "clientRequestId": 5,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getOwnFormattedTrackedTimes"
-    },
-    "clientRequestParameterName": "firstname",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 51,
-      "clientRequestId": {
-        "clientRequestId": 5,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getOwnFormattedTrackedTimes"
-      },
-      "clientRequestParameterName": "getOwnFormattedTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "OBJECT",
-      "clientRequestParameterDataTypeName": "Employee",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 54,
-    "clientRequestId": {
-      "clientRequestId": 5,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getOwnFormattedTrackedTimes"
-    },
-    "clientRequestParameterName": "surname",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 51,
-      "clientRequestId": {
-        "clientRequestId": 5,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getOwnFormattedTrackedTimes"
-      },
-      "clientRequestParameterName": "getOwnFormattedTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "OBJECT",
-      "clientRequestParameterDataTypeName": "Employee",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 55,
-    "clientRequestId": {
-      "clientRequestId": 5,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getOwnFormattedTrackedTimes"
-    },
-    "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "LIST",
-    "clientRequestParameterOfTypeDataType": "OBJECT",
-    "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 51,
-      "clientRequestId": {
-        "clientRequestId": 5,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getOwnFormattedTrackedTimes"
-      },
-      "clientRequestParameterName": "getOwnFormattedTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "OBJECT",
-      "clientRequestParameterDataTypeName": "Employee",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 56,
-    "clientRequestId": {
-      "clientRequestId": 5,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getOwnFormattedTrackedTimes"
-    },
-    "clientRequestParameterName": "employeeTrackedTimeId",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 55,
-      "clientRequestId": {
-        "clientRequestId": 5,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getOwnFormattedTrackedTimes"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 51,
-        "clientRequestId": {
-          "clientRequestId": 5,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getOwnFormattedTrackedTimes"
-        },
-        "clientRequestParameterName": "getOwnFormattedTrackedTimes",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 57,
-    "clientRequestId": {
-      "clientRequestId": 5,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getOwnFormattedTrackedTimes"
-    },
-    "clientRequestParameterName": "date",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 55,
-      "clientRequestId": {
-        "clientRequestId": 5,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getOwnFormattedTrackedTimes"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 51,
-        "clientRequestId": {
-          "clientRequestId": 5,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getOwnFormattedTrackedTimes"
-        },
-        "clientRequestParameterName": "getOwnFormattedTrackedTimes",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 58,
-    "clientRequestId": {
-      "clientRequestId": 5,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getOwnFormattedTrackedTimes"
-    },
-    "clientRequestParameterName": "day",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 55,
-      "clientRequestId": {
-        "clientRequestId": 5,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getOwnFormattedTrackedTimes"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 51,
-        "clientRequestId": {
-          "clientRequestId": 5,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getOwnFormattedTrackedTimes"
-        },
-        "clientRequestParameterName": "getOwnFormattedTrackedTimes",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 59,
-    "clientRequestId": {
-      "clientRequestId": 5,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getOwnFormattedTrackedTimes"
-    },
-    "clientRequestParameterName": "begin",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 55,
-      "clientRequestId": {
-        "clientRequestId": 5,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getOwnFormattedTrackedTimes"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 51,
-        "clientRequestId": {
-          "clientRequestId": 5,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getOwnFormattedTrackedTimes"
-        },
-        "clientRequestParameterName": "getOwnFormattedTrackedTimes",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 60,
-    "clientRequestId": {
-      "clientRequestId": 5,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getOwnFormattedTrackedTimes"
-    },
-    "clientRequestParameterName": "end",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 55,
-      "clientRequestId": {
-        "clientRequestId": 5,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getOwnFormattedTrackedTimes"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 51,
-        "clientRequestId": {
-          "clientRequestId": 5,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getOwnFormattedTrackedTimes"
-        },
-        "clientRequestParameterName": "getOwnFormattedTrackedTimes",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 61,
-    "clientRequestId": {
-      "clientRequestId": 5,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getOwnFormattedTrackedTimes"
-    },
-    "clientRequestParameterName": "workingTime",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 55,
-      "clientRequestId": {
-        "clientRequestId": 5,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getOwnFormattedTrackedTimes"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 51,
-        "clientRequestId": {
-          "clientRequestId": 5,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getOwnFormattedTrackedTimes"
-        },
-        "clientRequestParameterName": "getOwnFormattedTrackedTimes",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 62,
-    "clientRequestId": {
-      "clientRequestId": 5,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "getOwnFormattedTrackedTimes"
-    },
-    "clientRequestParameterName": "breakTime",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 55,
-      "clientRequestId": {
-        "clientRequestId": 5,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "getOwnFormattedTrackedTimes"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 51,
-        "clientRequestId": {
-          "clientRequestId": 5,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "getOwnFormattedTrackedTimes"
-        },
-        "clientRequestParameterName": "getOwnFormattedTrackedTimes",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 63,
-    "clientRequestId": {
-      "clientRequestId": 6,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer2"
-    },
-    "clientRequestParameterName": "testOfMyDeliveryLayer2",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "OBJECT",
-    "clientRequestParameterDataTypeName": "Employee",
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 64,
-    "clientRequestId": {
-      "clientRequestId": 6,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer2"
-    },
-    "clientRequestParameterName": "employeeId",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 63,
-      "clientRequestId": {
-        "clientRequestId": 6,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "testOfMyDeliveryLayer2"
-      },
-      "clientRequestParameterName": "testOfMyDeliveryLayer2",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "OBJECT",
-      "clientRequestParameterDataTypeName": "Employee",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 65,
-    "clientRequestId": {
-      "clientRequestId": 6,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer2"
-    },
-    "clientRequestParameterName": "firstname",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 63,
-      "clientRequestId": {
-        "clientRequestId": 6,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "testOfMyDeliveryLayer2"
-      },
-      "clientRequestParameterName": "testOfMyDeliveryLayer2",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "OBJECT",
-      "clientRequestParameterDataTypeName": "Employee",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 66,
-    "clientRequestId": {
-      "clientRequestId": 6,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer2"
-    },
-    "clientRequestParameterName": "surname",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 63,
-      "clientRequestId": {
-        "clientRequestId": 6,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "testOfMyDeliveryLayer2"
-      },
-      "clientRequestParameterName": "testOfMyDeliveryLayer2",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "OBJECT",
-      "clientRequestParameterDataTypeName": "Employee",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 67,
-    "clientRequestId": {
-      "clientRequestId": 6,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer2"
-    },
-    "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "LIST",
-    "clientRequestParameterOfTypeDataType": "OBJECT",
-    "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 63,
-      "clientRequestId": {
-        "clientRequestId": 6,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "testOfMyDeliveryLayer2"
-      },
-      "clientRequestParameterName": "testOfMyDeliveryLayer2",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "OBJECT",
-      "clientRequestParameterDataTypeName": "Employee",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 68,
-    "clientRequestId": {
-      "clientRequestId": 6,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer2"
-    },
-    "clientRequestParameterName": "employeeTrackedTimeId",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 67,
-      "clientRequestId": {
-        "clientRequestId": 6,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "testOfMyDeliveryLayer2"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 63,
-        "clientRequestId": {
-          "clientRequestId": 6,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "testOfMyDeliveryLayer2"
-        },
-        "clientRequestParameterName": "testOfMyDeliveryLayer2",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 69,
-    "clientRequestId": {
-      "clientRequestId": 6,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer2"
-    },
-    "clientRequestParameterName": "date",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 67,
-      "clientRequestId": {
-        "clientRequestId": 6,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "testOfMyDeliveryLayer2"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 63,
-        "clientRequestId": {
-          "clientRequestId": 6,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "testOfMyDeliveryLayer2"
-        },
-        "clientRequestParameterName": "testOfMyDeliveryLayer2",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 70,
-    "clientRequestId": {
-      "clientRequestId": 6,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer2"
-    },
-    "clientRequestParameterName": "day",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 67,
-      "clientRequestId": {
-        "clientRequestId": 6,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "testOfMyDeliveryLayer2"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 63,
-        "clientRequestId": {
-          "clientRequestId": 6,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "testOfMyDeliveryLayer2"
-        },
-        "clientRequestParameterName": "testOfMyDeliveryLayer2",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 71,
-    "clientRequestId": {
-      "clientRequestId": 6,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer2"
-    },
-    "clientRequestParameterName": "begin",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 67,
-      "clientRequestId": {
-        "clientRequestId": 6,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "testOfMyDeliveryLayer2"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 63,
-        "clientRequestId": {
-          "clientRequestId": 6,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "testOfMyDeliveryLayer2"
-        },
-        "clientRequestParameterName": "testOfMyDeliveryLayer2",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 72,
-    "clientRequestId": {
-      "clientRequestId": 6,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer2"
-    },
-    "clientRequestParameterName": "end",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 67,
-      "clientRequestId": {
-        "clientRequestId": 6,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "testOfMyDeliveryLayer2"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 63,
-        "clientRequestId": {
-          "clientRequestId": 6,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "testOfMyDeliveryLayer2"
-        },
-        "clientRequestParameterName": "testOfMyDeliveryLayer2",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 73,
-    "clientRequestId": {
-      "clientRequestId": 6,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer2"
-    },
-    "clientRequestParameterName": "workingTime",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 67,
-      "clientRequestId": {
-        "clientRequestId": 6,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "testOfMyDeliveryLayer2"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 63,
-        "clientRequestId": {
-          "clientRequestId": 6,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "testOfMyDeliveryLayer2"
-        },
-        "clientRequestParameterName": "testOfMyDeliveryLayer2",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 74,
-    "clientRequestId": {
-      "clientRequestId": 6,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer2"
-    },
-    "clientRequestParameterName": "breakTime",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 67,
-      "clientRequestId": {
-        "clientRequestId": 6,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "testOfMyDeliveryLayer2"
-      },
-      "clientRequestParameterName": "formattedEmployeeTrackedTimes",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 63,
-        "clientRequestId": {
-          "clientRequestId": 6,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "testOfMyDeliveryLayer2"
-        },
-        "clientRequestParameterName": "testOfMyDeliveryLayer2",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Employee",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 75,
-    "clientRequestId": {
-      "clientRequestId": 6,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer2"
-    },
-    "clientRequestParameterName": "test",
-    "clientRequestParameterType": "INPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "Int",
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 76,
-    "clientRequestId": {
-      "clientRequestId": 6,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer2"
-    },
-    "clientRequestParameterName": "test2",
-    "clientRequestParameterType": "INPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "Int",
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 77,
-    "clientRequestId": {
-      "clientRequestId": 6,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer2"
-    },
-    "clientRequestParameterName": "test3",
-    "clientRequestParameterType": "INPUT",
-    "clientRequestParameterDataType": "LIST",
-    "clientRequestParameterOfTypeDataType": "INPUT_OBJECT",
-    "clientRequestParameterOfTypeDataTypeName": "TestInput",
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 78,
-    "clientRequestId": {
-      "clientRequestId": 6,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer2"
-    },
-    "clientRequestParameterName": "test",
-    "clientRequestParameterType": "INPUT",
-    "clientRequestParameterDataType": "SCALAR",
-    "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 77,
-      "clientRequestId": {
-        "clientRequestId": 6,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "testOfMyDeliveryLayer2"
-      },
-      "clientRequestParameterName": "test3",
-      "clientRequestParameterType": "INPUT",
-      "clientRequestParameterDataType": "LIST",
-      "clientRequestParameterOfTypeDataType": "INPUT_OBJECT",
-      "clientRequestParameterOfTypeDataTypeName": "TestInput",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 79,
-    "clientRequestId": {
-      "clientRequestId": 7,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer1"
-    },
-    "clientRequestParameterName": "testOfMyDeliveryLayer1",
-    "clientRequestParameterType": "OUTPUT",
-    "clientRequestParameterDataType": "OBJECT",
-    "clientRequestParameterDataTypeName": "Response",
-    "childClientRequestParameterIds": []
-  },
-  {
-    "clientRequestParameterId": 80,
-    "clientRequestId": {
-      "clientRequestId": 7,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer1"
-    },
+    "clientRequestId": 6,
     "clientRequestParameterName": "http",
     "clientRequestParameterType": "OUTPUT",
     "clientRequestParameterDataType": "OBJECT",
     "clientRequestParameterDataTypeName": "Http",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 79,
-      "clientRequestId": {
-        "clientRequestId": 7,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "testOfMyDeliveryLayer1"
-      },
-      "clientRequestParameterName": "testOfMyDeliveryLayer1",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "OBJECT",
-      "clientRequestParameterDataTypeName": "Response",
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
+    "parentClientRequestParameterId": 15
   },
   {
-    "clientRequestParameterId": 81,
-    "clientRequestId": {
-      "clientRequestId": 7,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer1"
-    },
+    "clientRequestParameterId": 34,
+    "clientRequestId": 5,
+    "clientRequestParameterName": "testOfMyDeliveryLayer2",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "OBJECT",
+    "clientRequestParameterDataTypeName": "Employee"
+  },
+  {
+    "clientRequestParameterId": 35,
+    "clientRequestId": 1,
+    "clientRequestParameterName": "employeeTrackedTimeId",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 21
+  },
+  {
+    "clientRequestParameterId": 36,
+    "clientRequestId": 1,
+    "clientRequestParameterName": "date",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 21
+  },
+  {
+    "clientRequestParameterId": 37,
+    "clientRequestId": 1,
+    "clientRequestParameterName": "day",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 21
+  },
+  {
+    "clientRequestParameterId": 38,
+    "clientRequestId": 1,
+    "clientRequestParameterName": "begin",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 21
+  },
+  {
+    "clientRequestParameterId": 39,
+    "clientRequestId": 1,
+    "clientRequestParameterName": "end",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 21
+  },
+  {
+    "clientRequestParameterId": 40,
+    "clientRequestId": 1,
+    "clientRequestParameterName": "workingTime",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 21
+  },
+  {
+    "clientRequestParameterId": 41,
+    "clientRequestId": 1,
+    "clientRequestParameterName": "breakTime",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 21
+  },
+  {
+    "clientRequestParameterId": 42,
+    "clientRequestId": 4,
+    "clientRequestParameterName": "employeeTrackedTimeId",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 24
+  },
+  {
+    "clientRequestParameterId": 43,
+    "clientRequestId": 4,
+    "clientRequestParameterName": "date",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 24
+  },
+  {
+    "clientRequestParameterId": 44,
+    "clientRequestId": 4,
+    "clientRequestParameterName": "begin",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 24
+  },
+  {
+    "clientRequestParameterId": 45,
+    "clientRequestId": 4,
+    "clientRequestParameterName": "day",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 24
+  },
+  {
+    "clientRequestParameterId": 46,
+    "clientRequestId": 4,
+    "clientRequestParameterName": "end",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 24
+  },
+  {
+    "clientRequestParameterId": 47,
+    "clientRequestId": 4,
+    "clientRequestParameterName": "workingTime",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 24
+  },
+  {
+    "clientRequestParameterId": 48,
+    "clientRequestId": 4,
+    "clientRequestParameterName": "breakTime",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 24
+  },
+  {
+    "clientRequestParameterId": 49,
+    "clientRequestId": 2,
+    "clientRequestParameterName": "date",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 25
+  },
+  {
+    "clientRequestParameterId": 50,
+    "clientRequestId": 2,
+    "clientRequestParameterName": "day",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 25
+  },
+  {
+    "clientRequestParameterId": 51,
+    "clientRequestId": 2,
+    "clientRequestParameterName": "employeeTrackedTimes",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "LIST",
+    "clientRequestParameterOfTypeDataType": "OBJECT",
+    "clientRequestParameterOfTypeDataTypeName": "EmployeeTrackedTime",
+    "parentClientRequestParameterId": 25
+  },
+  {
+    "clientRequestParameterId": 52,
+    "clientRequestId": 7,
+    "clientRequestParameterName": "employeeTrackedTimeId",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 28
+  },
+  {
+    "clientRequestParameterId": 53,
+    "clientRequestId": 7,
+    "clientRequestParameterName": "employeeId",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 28
+  },
+  {
+    "clientRequestParameterId": 54,
+    "clientRequestId": 7,
+    "clientRequestParameterName": "firstname",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 28
+  },
+  {
+    "clientRequestParameterId": 55,
+    "clientRequestId": 7,
+    "clientRequestParameterName": "surname",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 28
+  },
+  {
+    "clientRequestParameterId": 56,
+    "clientRequestId": 7,
+    "clientRequestParameterName": "trackedDate",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 28
+  },
+  {
+    "clientRequestParameterId": 57,
+    "clientRequestId": 7,
+    "clientRequestParameterName": "trackedTime",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 28
+  },
+  {
+    "clientRequestParameterId": 58,
+    "clientRequestId": 7,
+    "clientRequestParameterName": "status",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 28
+  },
+  {
+    "clientRequestParameterId": 59,
+    "clientRequestId": 3,
+    "clientRequestParameterName": "employeeTrackedTimeId",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 32
+  },
+  {
+    "clientRequestParameterId": 60,
+    "clientRequestId": 6,
     "clientRequestParameterName": "code",
     "clientRequestParameterType": "OUTPUT",
     "clientRequestParameterDataType": "SCALAR",
     "clientRequestParameterDataTypeName": "Int",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 80,
-      "clientRequestId": {
-        "clientRequestId": 7,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "testOfMyDeliveryLayer1"
-      },
-      "clientRequestParameterName": "http",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "OBJECT",
-      "clientRequestParameterDataTypeName": "Http",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 79,
-        "clientRequestId": {
-          "clientRequestId": 7,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "testOfMyDeliveryLayer1"
-        },
-        "clientRequestParameterName": "testOfMyDeliveryLayer1",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Response",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
+    "parentClientRequestParameterId": 33
   },
   {
-    "clientRequestParameterId": 82,
-    "clientRequestId": {
-      "clientRequestId": 7,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer1"
-    },
+    "clientRequestParameterId": 61,
+    "clientRequestId": 6,
     "clientRequestParameterName": "msg",
     "clientRequestParameterType": "OUTPUT",
     "clientRequestParameterDataType": "SCALAR",
     "clientRequestParameterDataTypeName": "String",
-    "parentClientRequestParameterId": {
-      "clientRequestParameterId": 80,
-      "clientRequestId": {
-        "clientRequestId": 7,
-        "clientRequestType": "GRAPHQL",
-        "clientRequestURI": "https://etts.pocketretail.de",
-        "clientId": {
-          "clientId": "etts",
-          "clientURI": "https://etts.pocketretail.de",
-          "active": true
-        },
-        "clientRequestName": "testOfMyDeliveryLayer1"
-      },
-      "clientRequestParameterName": "http",
-      "clientRequestParameterType": "OUTPUT",
-      "clientRequestParameterDataType": "OBJECT",
-      "clientRequestParameterDataTypeName": "Http",
-      "parentClientRequestParameterId": {
-        "clientRequestParameterId": 79,
-        "clientRequestId": {
-          "clientRequestId": 7,
-          "clientRequestType": "GRAPHQL",
-          "clientRequestURI": "https://etts.pocketretail.de",
-          "clientId": {
-            "clientId": "etts",
-            "clientURI": "https://etts.pocketretail.de",
-            "active": true
-          },
-          "clientRequestName": "testOfMyDeliveryLayer1"
-        },
-        "clientRequestParameterName": "testOfMyDeliveryLayer1",
-        "clientRequestParameterType": "OUTPUT",
-        "clientRequestParameterDataType": "OBJECT",
-        "clientRequestParameterDataTypeName": "Response",
-        "childClientRequestParameterIds": []
-      },
-      "childClientRequestParameterIds": []
-    },
-    "childClientRequestParameterIds": []
+    "parentClientRequestParameterId": 33
+  },
+  {
+    "clientRequestParameterId": 62,
+    "clientRequestId": 3,
+    "clientRequestParameterName": "day",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 32
+  },
+  {
+    "clientRequestParameterId": 63,
+    "clientRequestId": 3,
+    "clientRequestParameterName": "begin",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 32
+  },
+  {
+    "clientRequestParameterId": 64,
+    "clientRequestId": 3,
+    "clientRequestParameterName": "date",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 32
+  },
+  {
+    "clientRequestParameterId": 65,
+    "clientRequestId": 3,
+    "clientRequestParameterName": "end",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 32
+  },
+  {
+    "clientRequestParameterId": 66,
+    "clientRequestId": 3,
+    "clientRequestParameterName": "workingTime",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 32
+  },
+  {
+    "clientRequestParameterId": 67,
+    "clientRequestId": 5,
+    "clientRequestParameterName": "employeeId",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 34
+  },
+  {
+    "clientRequestParameterId": 68,
+    "clientRequestId": 3,
+    "clientRequestParameterName": "breakTime",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 32
+  },
+  {
+    "clientRequestParameterId": 69,
+    "clientRequestId": 5,
+    "clientRequestParameterName": "firstname",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 34
+  },
+  {
+    "clientRequestParameterId": 70,
+    "clientRequestId": 5,
+    "clientRequestParameterName": "surname",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 34
+  },
+  {
+    "clientRequestParameterId": 71,
+    "clientRequestId": 5,
+    "clientRequestParameterName": "formattedEmployeeTrackedTimes",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "LIST",
+    "clientRequestParameterOfTypeDataType": "OBJECT",
+    "clientRequestParameterOfTypeDataTypeName": "FormattedEmployeeTrackedTime",
+    "parentClientRequestParameterId": 34
+  },
+  {
+    "clientRequestParameterId": 72,
+    "clientRequestId": 2,
+    "clientRequestParameterName": "employeeTrackedTimeId",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 51
+  },
+  {
+    "clientRequestParameterId": 73,
+    "clientRequestId": 2,
+    "clientRequestParameterName": "employeeId",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 51
+  },
+  {
+    "clientRequestParameterId": 74,
+    "clientRequestId": 2,
+    "clientRequestParameterName": "firstname",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 51
+  },
+  {
+    "clientRequestParameterId": 75,
+    "clientRequestId": 2,
+    "clientRequestParameterName": "surname",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 51
+  },
+  {
+    "clientRequestParameterId": 76,
+    "clientRequestId": 2,
+    "clientRequestParameterName": "trackedDate",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 51
+  },
+  {
+    "clientRequestParameterId": 77,
+    "clientRequestId": 2,
+    "clientRequestParameterName": "trackedTime",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 51
+  },
+  {
+    "clientRequestParameterId": 78,
+    "clientRequestId": 2,
+    "clientRequestParameterName": "status",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 51
+  },
+  {
+    "clientRequestParameterId": 79,
+    "clientRequestId": 5,
+    "clientRequestParameterName": "employeeTrackedTimeId",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 71
+  },
+  {
+    "clientRequestParameterId": 80,
+    "clientRequestId": 5,
+    "clientRequestParameterName": "date",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 71
+  },
+  {
+    "clientRequestParameterId": 81,
+    "clientRequestId": 5,
+    "clientRequestParameterName": "day",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 71
+  },
+  {
+    "clientRequestParameterId": 82,
+    "clientRequestId": 5,
+    "clientRequestParameterName": "begin",
+    "clientRequestParameterType": "OUTPUT",
+    "clientRequestParameterDataType": "SCALAR",
+    "clientRequestParameterDataTypeName": "String",
+    "parentClientRequestParameterId": 71
   },
   {
     "clientRequestParameterId": 83,
-    "clientRequestId": {
-      "clientRequestId": 7,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer1"
-    },
-    "clientRequestParameterName": "test",
-    "clientRequestParameterType": "INPUT",
+    "clientRequestId": 5,
+    "clientRequestParameterName": "end",
+    "clientRequestParameterType": "OUTPUT",
     "clientRequestParameterDataType": "SCALAR",
     "clientRequestParameterDataTypeName": "String",
-    "childClientRequestParameterIds": []
+    "parentClientRequestParameterId": 71
   },
   {
     "clientRequestParameterId": 84,
-    "clientRequestId": {
-      "clientRequestId": 7,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer1"
-    },
-    "clientRequestParameterName": "test2",
-    "clientRequestParameterType": "INPUT",
+    "clientRequestId": 5,
+    "clientRequestParameterName": "workingTime",
+    "clientRequestParameterType": "OUTPUT",
     "clientRequestParameterDataType": "SCALAR",
     "clientRequestParameterDataTypeName": "String",
-    "childClientRequestParameterIds": []
+    "parentClientRequestParameterId": 71
   },
   {
     "clientRequestParameterId": 85,
-    "clientRequestId": {
-      "clientRequestId": 7,
-      "clientRequestType": "GRAPHQL",
-      "clientRequestURI": "https://etts.pocketretail.de",
-      "clientId": {
-        "clientId": "etts",
-        "clientURI": "https://etts.pocketretail.de",
-        "active": true
-      },
-      "clientRequestName": "testOfMyDeliveryLayer1"
-    },
-    "clientRequestParameterName": "test3",
-    "clientRequestParameterType": "INPUT",
+    "clientRequestId": 5,
+    "clientRequestParameterName": "breakTime",
+    "clientRequestParameterType": "OUTPUT",
     "clientRequestParameterDataType": "SCALAR",
     "clientRequestParameterDataTypeName": "String",
-    "childClientRequestParameterIds": []
+    "parentClientRequestParameterId": 71
   }
 ]

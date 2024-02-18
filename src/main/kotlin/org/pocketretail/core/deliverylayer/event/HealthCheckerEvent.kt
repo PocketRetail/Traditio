@@ -1,38 +1,37 @@
-package org.pocketretail.core.deliverylayer.event;
+package org.pocketretail.core.deliverylayer.event
 
-import org.pocketretail.core.deliverylayer.rest.client.HealthCheckWebClient;
-import org.pocketretail.core.deliverylayer.rest.client.exception.ApplicationNotUpException;
-import org.pocketretail.core.deliverylayer.database.repo.ClientRepository;
-import org.springframework.scheduling.annotation.EnableScheduling;
-import org.springframework.scheduling.annotation.Scheduled;
-import org.springframework.stereotype.Component;
+import org.pocketretail.core.deliverylayer.database.repo.ClientRepository
+import org.pocketretail.core.deliverylayer.rest.client.HealthCheckWebClient
+import org.pocketretail.core.deliverylayer.rest.client.exception.ApplicationNotUpException
+import org.springframework.scheduling.annotation.Scheduled
+import org.springframework.stereotype.Component
+import reactor.core.publisher.Mono
+import reactor.util.retry.Retry
+import java.time.Duration
 
 @Component
-@EnableScheduling
-public class HealthCheckerEvent {
+class HealthCheckerEvent(
+    private val clientRepository: ClientRepository,
+) {
 
-    private final ClientRepository clientRepository;
-
-
-    public HealthCheckerEvent(ClientRepository clientRepository) {
-        this.clientRepository = clientRepository;
-    }
-
-
-    //Event which triggers every 5 Minutes to check if all Clients still up
     @Scheduled(fixedRate = 300000)
-    public void checkIfClientsAreUp() {
-        //Check all Clients with HealthCheckWebClient, if it fails try again (max 5 times)
-        clientRepository.findAll().forEach(client -> {
-            try {
-                HealthCheckWebClient.checkHealth(client.getClientURI());
-            } catch (ApplicationNotUpException e) {
-                client.setActive(false);
-                clientRepository.save(client);
-                //TODO: Add Alert Mail Sending
+    fun checkIfClientsAreUp() {
+        clientRepository.findAll()
+            .flatMap { client ->
+                HealthCheckWebClient.checkHealth(client.clientURI)
+                    .retryWhen(Retry.fixedDelay(5, Duration.ofSeconds(5)))
+                    .onErrorResume { e: Throwable ->
+                        if (e is ApplicationNotUpException) {
+                            client.active = false
+                            clientRepository.save(client).then()
+                        } else {
+                            Mono.error(e)
+                        }
+                    }
             }
-        });
-
+            .subscribe(
+                { /* Erfolgreiche Verarbeitung hier, falls nötig */ },
+                { e -> println("Fehler beim Prüfen der Client-Health: ${e.message}") }
+            )
     }
-
 }

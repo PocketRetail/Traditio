@@ -4,13 +4,11 @@ import org.springframework.data.annotation.Id
 import org.springframework.data.relational.core.mapping.Column
 import org.springframework.data.relational.core.mapping.Table
 
-@Table("page_client_request_configuration", schema = "tables")
-data class PageClientRequestConfiguration(
+@Table("page_request_parameter_configuration", schema = "tables")
+data class PageRequestParameterConfiguration(
     @Id
     @Column("page_client_request_configuration_id")
     val pageClientRequestConfigurationId: Int,
-    @Column("page_id")
-    var pageId: Int,
-    @Column("client_request_id")
-    var clientRequestId: Int,
+    @Column("client_request_parameter_id")
+    val clientRequestParameterId: Int
 )

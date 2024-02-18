@@ -1,15 +1,11 @@
-package org.pocketretail.core.deliverylayer.rest.constant;
+package org.pocketretail.core.deliverylayer.rest.constant
 
-public enum Application {
-
+enum class Application(val value: String) {
     MANAGEMENT("management"),
     SHOP("shop");
 
-    Application(String value) {
-        this.value = value;
+    companion object {
+        fun getApplicationByName(requestApplication: String): Application =
+            entries.find { it.value == requestApplication }?:throw IllegalArgumentException("Application not found")
     }
-
-    private String value;
-
-
 }

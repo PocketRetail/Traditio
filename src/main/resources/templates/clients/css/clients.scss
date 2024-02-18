@@ -28,6 +28,8 @@
     justify-content: space-between;
   }
 
+
+
   .status-indicator {
     margin-left: 10px;
     width: 15px;
@@ -63,7 +65,6 @@
   display: inline-block; // allows the background color to span the element
   text-align: center; // centers the text horizontally
   border: none;
-
   width: 100%;
   border: 0;
   border-radius: 5px;
@@ -73,7 +74,6 @@
   font-weight: bold;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  margin-top: auto;
   &:hover {
     background: #535377;
     opacity: 0.8;

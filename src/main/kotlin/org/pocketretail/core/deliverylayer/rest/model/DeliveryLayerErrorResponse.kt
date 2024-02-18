@@ -1,20 +1,10 @@
-package org.pocketretail.core.deliverylayer.rest.model;
+package org.pocketretail.core.deliverylayer.rest.model
 
-import java.util.Date;
+import java.util.Date
 
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
-public class DeliveryLayerErrorResponse extends DeliveryLayerCommonResponse{
-
-
-    private String stackTrace;
-
-    public DeliveryLayerErrorResponse(String msg, Integer status, Date timestamp,
-                                      String stackTrace) {
-        super(msg, status, timestamp);
-        this.stackTrace = stackTrace;
-    }
-}
+class DeliveryLayerErrorResponse(
+    msg: String,
+    status: Int,
+    timestamp: Date,
+    var stackTrace: String
+) : DeliveryLayerCommonResponse(msg, status, timestamp)

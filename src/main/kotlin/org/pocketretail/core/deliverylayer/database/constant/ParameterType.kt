@@ -1,7 +1,6 @@
-package org.pocketretail.core.deliverylayer.database.constant;
+package org.pocketretail.core.deliverylayer.database.constant
 
-public enum ParameterType {
-
+enum class ParameterType {
     INPUT,
     OUTPUT,
 }
