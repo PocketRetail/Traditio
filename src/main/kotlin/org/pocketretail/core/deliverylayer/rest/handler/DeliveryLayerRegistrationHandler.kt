@@ -237,7 +237,7 @@ class DeliveryLayerRegistrationHandler(
                 ).then(Mono.empty())
             )
             .flatMap { parameter ->
-                if (parameter.clientRequestParameterDataType == "LIST" && (parameter.clientRequestParameterOfTypeDataType == "OBJECT" || parameter.clientRequestParameterDataType == "INPUT_OBJECT") || parameter.clientRequestParameterDataType == "OBJECT") {
+                if (parameter.clientRequestParameterDataType == "LIST" && parameter.clientRequestParameterOfTypeDataType == "OBJECT" || parameter.clientRequestParameterDataType == "OBJECT") {
                     createIfNeededNewChildParameter(
                         clientRequest,
                         graphQLSchemaResponse,

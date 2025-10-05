@@ -1,24 +1,24 @@
-package org.pocketretail.core.deliverylayer.rest.configuration;
+package org.pocketretail.core.deliverylayer.rest.configuration
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.security.config.annotation.web.WebSecurityConfigurer;
-import org.springframework.web.servlet.config.annotation.CorsRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+import org.springframework.context.annotation.Bean
+import org.springframework.context.annotation.Configuration
+import org.springframework.http.HttpMethod
+import org.springframework.web.cors.CorsConfiguration
+import org.springframework.web.cors.reactive.CorsWebFilter
+import org.springframework.web.server.ServerWebExchange
 
 @Configuration
-public class WebConfig  {
+class WebConfig {
 
     @Bean
-    public WebMvcConfigurer corsConfigurer() {
-        return new WebMvcConfigurer() {
-            @Override
-            public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/graphql")
-                        .allowedOriginPatterns("https://pocketretail.de",
-                                               "https://*.pocketretail.de", "http://localhost:4200")
-                        .allowCredentials(true);
-            }
-        };
+    fun corsFilter(): CorsWebFilter {
+        val corsConfig = CorsConfiguration()
+        corsConfig.addAllowedOrigin("https://localdev.de:3000")
+        corsConfig.addAllowedHeader("*")
+        corsConfig.addAllowedMethod(HttpMethod.GET)
+        corsConfig.addAllowedMethod(HttpMethod.POST)
+        corsConfig.allowCredentials = true
+
+        return CorsWebFilter { exchange: ServerWebExchange? -> corsConfig }
     }
 }

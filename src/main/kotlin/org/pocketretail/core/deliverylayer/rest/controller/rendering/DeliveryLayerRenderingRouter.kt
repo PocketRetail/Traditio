@@ -16,7 +16,9 @@ class DeliveryLayerRenderingRouter {
             "/deliverylayer/api/v1/rendering".nest {
                 GET("/load/{pageId}") { req ->
                     val pageId = req.pathVariable("pageId")
-                    deliveryLayerRenderingHandler.loadPage(pageId, req)
+                    deliveryLayerRenderingHandler.loadPage(pageId, req).onErrorResume { e ->
+                        ServerResponse.badRequest().bodyValue(e.message ?: "An error occurred")
+                    }
                 }
             }
         }

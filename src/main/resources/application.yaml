@@ -10,32 +10,26 @@ spring:
       client:
         registration:
           PocketRetailRealm:
-            provider:
-            client-id:
+            provider: PocketRetailRealm
+            client-id: pocketretail-oidc
             scope:
               - openid
               - offline_access
               - profile
-            client-secret:
-            authorization-grant-type:
+            client-secret: 44g5kfvkNAZABulbKFDdKbcsJea5ix75
+            authorization-grant-type: authorization_code
         provider:
           PocketRetailRealm:
-            issuer-uri:
-  jpa:
-    show-sql: off
-    generate-ddl: off
-    hibernate:
-      ddl-auto: validate
+            issuer-uri: http://localdev.de:8080/realms/PocketRetailRealm
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/DeliveryLayer
+    username: postgres
+    password: test
     properties:
-      hibernate:
-        default_schema: tables
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
-    open-in-view: false
-  datasource:
-    url:
-    username:
-    password:
-    driver-class-name: org.postgresql.Driver
+      lock_timeout: 40000
+      statement_timeout: 40000
+      idle_in_transaction_session_timeout: 40000
+      connectTimeout: PT55S
 server:
   forward-headers-strategy: framework
   port: 80
@@ -46,3 +40,7 @@ springdoc:
   swagger-ui:
     path: /swagger-ui/index.html
     operationsSorter: method
+logging:
+  level:
+    org.springframework.security: DEBUG
+    org.springframework.freemarker: DEBUG
